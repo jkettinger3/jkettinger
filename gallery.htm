@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="navigation.js"></script>
+</head>
+<font face="arial">
+
+<body bgcolor="#dfbfaf" link="blue" alink="red" vlink="blue">
+
+<h1>Gallery</h1>
+<a href="index.html"><- back</a>
+<br>
+Here is a gallery of some of the gadgets I've made in Desmos and Geogebra.
+<br>
+ If you scroll, the interactable component of the gadget might break, if that happens just click on my website's background or refresh the page and it should work!
+<br>
+
+<table CELLPADDING=30 CELLSPACING=0 width=1000>
+
+<tr> <td width=1000 align=left valign=top>
+<b><a href="https://www.desmos.com/calculator/rg4u5bwsew" target="_blank">The Unexpected Quartic</a></b>
+<p><iframe src="https://www.desmos.com/calculator/r7pcx6a3lb?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+<p>Above is a demonstration of the unique (up to isomorphism) unexpected quartic in characteristic 0. Points 1, 2, 3, 4, and 10 are click-and-draggable, and point 10 will always be a triple point no matter where you drag it! (Although it may not always appear that way because non-real slopes don't render in Desmos.) You can read about its construction and uniqueness in the 2019 paper by Farnik, Galuppi, Sodomaco, and Trok. 
+
+<br>
+<br>
+<br>
+<b><a href="https://www.desmos.com/calculator/xqmauatowt" target="_blank">The Geiser Involution</a></b>
+<p><iframe src="https://www.desmos.com/calculator/9y9oejvdgp?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+<p>Above is a demonstration of the Geiser involution on the plane, which uses the Cayley-Bacharach Theorem. Under the involution, the points P and Q map to each other.
+	<br>
+It relies on the Cayley-Bacharach Theorem, which states that given eight points in the plane, there is exactly one additional point in the plane such that every cubic that contains the first eight points must also contain the additional ninth point.
+<br>
+The function treats the seven black points as base points, and uses P as the eighth point: then Q is the additional ninth point that satisfies the Cayley-Bacharach Theorem.
+<br>
+ When P is one of the seven base points, the image of P is not defined. The Geiser involution is a rational transformation of the plane, and is just defined on a dense open subset of the plane. To have it be defined everywhere, you would have to blow up the seven points where it not defined.
+ <br>
+ <br>
+ <br>
+ <b><a href="https://www.desmos.com/calculator/o88bxrsg1c" target="_blank">Four Points and a Tangent Make Two Conics</a></b>
+ <p><iframe src="https://www.desmos.com/calculator/tmybgtqyga?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+ The above is a demonstration showing that picking four points in the plane and a line as a tangent line yields exactly two conics. Note that sometimes the conics disappear because its polynomial would need to have complex coefficients.
+ <br>
+ You can control the orange line by dragging the orange point.
+ <br>
+ <br>
+ <br>
+ <b><a href="https://www.geogebra.org/calculator/q5aqn4rs" target="_blank">Pascal's Theorem</a></b>
+ <!--<p><iframe scrolling="no" src="https://www.geogebra.org/classic/q5aqn4rs?embed/" width="400" height="400" style="border: 5px solid #9999ff;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>-->
+ <div id="ggb-element">
+ 	<script type="text/javascript" src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+        <script type="text/javascript">
+
+ var params = {
+            "appName": "classic", 
+            "width": 400, 
+            "height": 400, 
+            "showToolBar": false, 
+            "showAlgebraInput": false, 
+            "showMenuBar": false,
+            "material_id":"q5aqn4rs",
+            "borderWidth": 5,
+            "border-color": "9999ff"
+            };
+    var ggbApplet = new GGBApplet(params, true);
+    window.addEventListener("load", function() { 
+        ggbApplet.inject('ggb-element');
+    });
+   </script>
+   
+</div>
+<br>
+Linked is an illustration of Pascal's theorem, which can be proven using the Cayley-Bacharach theorem.
+<br>
+The points A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, B<sub>1</sub>, B<sub>2</sub>, and B<sub>3</sub> are six points on a conic. The two orange lines connect A<sub>1</sub> with B<sub>2</sub> and A<sub>2</sub> with B<sub>1</sub>. The intersection of those orange lines is X.
+<br>
+The two purple lines connect A<sub>1</sub> with B<sub>3</sub> and A<sub>3</sub> with B<sub>1</sub>. The intersection of those purple lines is Y.
+<br>
+The two green lines connect A<sub>2</sub> with B<sub>3</sub> and A<sub>3</sub> with B<sub>2</sub>. The intersection of those green lines is Z.
+<br>
+    No matter where you move the six points A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, B<sub>1</sub>, B<sub>2</sub>, and B<sub>3</sub>, the points X, Y, and Z will always be collinear!
+
+
+
+<td width=0 valign=top align=left>
+</td>
+
+<td width=1000 valign=top align=left>
+<div align="left">
+<b><a href="https://www.desmos.com/calculator/khbb7dalvy" target="_blank">The Bertini Involution</a></b>
+<p><iframe src="https://www.desmos.com/calculator/iohpcnjkuu?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+The above is an example of the Bertini involution of the plane, which uses the group law of elliptic curves. Under the involution, the point P maps to the point Q. It begins by taking an elliptic fibration with nine base points and choosing one of the base points as the identity element under the group law for all of the curves in the fibration. This point is marked as O.
+
+  <br>
+
+   Then when P is not one of the nine base points, there is a unique elliptic curve that contains all nine base points and P. Then P is mapped to -P under a group homomorphism on the curve (which is why we have an involution: if P goes to -P, then -P goes to -(-P)=P). 
+
+   <br>
+
+   To show P+Q=O, we can connect P and Q with the green line, and label the third point where the green line meets the curve as R. Then to find P+Q, we connect R to the identity O with the orange line. This new line is tangent to the curve at O, and so the "third" point where the orange line meets the purple curve is O itself. This shows that P+Q=O, and so we truly have Q=-P.
+
+   <br>
+
+   When P is O, the image of P is P. When P is one of the eight base points that are not O, the image of P is not defined. The Bertini involution is a rational transformation of the plane, and is just defined on a dense open subset of the plane. To have it be defined everywhere, you would have to blow up the eight points where it not defined.
+
+   <br>
+   <br>
+   <br>
+   <b><a href="https://www.desmos.com/calculator/jsgrzenqbq" target="_blank">Five Points Make a Conic</a></b>
+   <p><iframe src="https://www.desmos.com/calculator/x5u1g9jbum?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+   The above is a demonstration of five points on the plane uniquely determining a conic.
+   <br>
+   <br>
+   <br>
+   <b><a href="https://www.desmos.com/calculator/3mi8zktzhg" target="_blank">Three Points and Two Tangents Make Four Conics</a></b>
+   <p><iframe src="https://www.desmos.com/calculator/wkp2i70nha?embed" width="400" height="400" style="border: 5px solid #008000;border-radius:30px 30px 30px 30px;" frameborder=0></iframe></p>
+   The above is a demonstration of choosing three points in the plane and two lines to become tangent lines. This yields exactly four conics. Note that sometimes the conics might disappear because their polynomials need complex coefficients.
+   <br>
+   You can control the orange and purple lines with the orange and purple points.
+
+<div id="grad1">
+
+</div>
+
+
+
+</body>
+</html>
